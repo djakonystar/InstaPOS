@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="uz.texnopos.instagram.ui.home.HomeFragment"
+        tools:layout="@layout/fragment_home"/>
+    <fragment
+        android:id="@+id/nav_search"
+        android:name="uz.texnopos.instagram.ui.search.SearchFragment"
+        tools:layout="@layout/fragment_search"/>
+    <fragment
+        android:id="@+id/nav_add_post"
+        android:name="uz.texnopos.instagram.ui.addpost.AddPostFragment"
+        tools:layout="@layout/fragment_add_post"/>
+    <fragment
+        android:id="@+id/nav_favorite"
+        android:name="uz.texnopos.instagram.ui.favorite.FavoriteFragment"
+        tools:layout="@layout/fragment_favorite"/>
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="uz.texnopos.instagram.ui.profile.ProfileFragment"
+        tools:layout="@layout/fragment_profile"/>
+</navigation>
